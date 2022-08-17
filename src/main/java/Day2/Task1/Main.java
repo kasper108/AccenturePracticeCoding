@@ -20,9 +20,9 @@ public class Main {
 
         double firstNumber;
         double secondNumber;
+        Scanner scanner = new Scanner(System.in);
 
         System.out.println("Please input first number : ");
-        Scanner scanner = new Scanner(System.in);
         firstNumber = scanner.nextDouble();
 
         System.out.println("=============================================");
