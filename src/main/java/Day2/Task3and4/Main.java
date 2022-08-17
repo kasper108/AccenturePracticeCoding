@@ -1,4 +1,4 @@
-package Day2.Task3;
+package Day2.Task3and4;
 
 import java.util.Scanner;
 
@@ -13,9 +13,9 @@ public class Main {
         System.out.println("=============================================");
 
         if(number%2 == 0){
-            System.out.println("Even number !");
+            System.out.println("Even number ! " + false);
         } else {
-            System.out.println("Odd number !");
+            System.out.println("Odd number ! " + true);
         }
         System.out.println("=============================================");
     }
