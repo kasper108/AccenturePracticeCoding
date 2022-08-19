@@ -7,6 +7,7 @@ import lombok.Setter;
 @Getter
 public class VwGolf extends Car{
     private String model;
+    // ?
 
     public VwGolf() {
         super(CarBrand.VW, 4, TransmissionType.AUTO, EngineType.DIESEL);
