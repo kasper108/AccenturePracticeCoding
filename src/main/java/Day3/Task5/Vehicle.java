@@ -9,7 +9,6 @@ import lombok.Setter;
 @AllArgsConstructor
 @Getter
 @Setter
-public class Vehicle {
-   private byte wheelsCount;
-
+public abstract class Vehicle {
+   private VehicleType vehicleType;
 }
