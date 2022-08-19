@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class Task1to22 {
+public class Tasks1to22 {
     public static void main(String[] args) {
 
         Print print = new Print();
