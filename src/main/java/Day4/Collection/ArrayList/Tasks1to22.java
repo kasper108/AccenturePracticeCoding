@@ -91,7 +91,7 @@ public class Tasks1to22 {
         // Task 18 - Write a Java program to trim the capacity of an array list the current list size.
         colors.trimToSize();
         print.printStringList(colors);
-        // ???
+        // ??
 
         // Task 19 - Write a Java program to increase the size of an array list.
         ArrayList<String> capacityArray = new ArrayList<>(3);
