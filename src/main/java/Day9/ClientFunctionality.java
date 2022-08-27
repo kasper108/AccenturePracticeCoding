@@ -56,6 +56,7 @@ public class ClientFunctionality implements Runnable{
     public void closeClientSide(){
         clientSides.remove(this);
         sendMessage("CHAT -> " + clientName + " has left the chat right now ...");
+        // ????
     }
 
     public void closeClient(Socket clientSocket , BufferedReader bufferedReader, BufferedWriter bufferedWriter){
