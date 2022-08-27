@@ -41,5 +41,6 @@ public class ChatServer {
         ServerSocket chatServerSocket = new ServerSocket(1234);
         ChatServer server = new ChatServer(chatServerSocket);
         server.startChatServer();
+        server.closeChatServerSocket();
     }
 }
